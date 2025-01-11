@@ -9,9 +9,11 @@ This project was initially made using DirectDraw, but later was ported to OpenGL
 
 For some reason I ended calling the game "Cerulean project" not sure why.
 
-Title Screen
-<img src="https://raw.githubusercontent.com/D0ct0rDave/Arcade1_OGL/refs/heads/main/doc/img1.png" alt="Title Screen" title="Title Screen" width="50%" height="50
-Screenshot 1
+Title Screen<br>
+<img src="https://raw.githubusercontent.com/D0ct0rDave/Arcade1_OGL/refs/heads/main/doc/img1.png" alt="Title Screen" title="Title Screen" width="50%" height="50%">
+
+Screenshot 1<br>
 <img src="https://raw.githubusercontent.com/D0ct0rDave/Arcade1_OGL/refs/heads/main/doc/img2.png" alt="screenshot 1" title="screenshot 1" width="50%" height="50%">
-Screenshot 2
+
+Screenshot 2<br>
 <img src="https://raw.githubusercontent.com/D0ct0rDave/Arcade1_OGL/refs/heads/main/doc/img3.png" alt="screenshot 2" title="screenshot 2" width="50%" height="50%">
