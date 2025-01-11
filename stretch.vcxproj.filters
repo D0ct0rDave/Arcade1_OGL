@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{803d2737-bfa5-44d2-a4a3-10404fcfd34e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4da45bd6-b24f-4214-908d-c15d29dbf8aa}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{0f95ed1d-e751-47e0-a169-2f38b13148f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\OGL">
+      <UniqueIdentifier>{17ac33b8-c9fe-4eea-a93b-07f22fe358ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{a05fa609-3def-4364-bbd5-97244526d932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level0">
+      <UniqueIdentifier>{09c92c03-6362-499a-bcdd-a6bc2728ae8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level0\L0_Entities">
+      <UniqueIdentifier>{2561777c-6336-47c5-8c4f-6bea0ff8226a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Level0\L0_Entities\L0_MapEnt">
+      <UniqueIdentifier>{bf6aaa15-4ecc-4616-b9dd-ffa62677817a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels\Entities">
+      <UniqueIdentifier>{7fdf29cb-4499-4c62-b711-5ae7dff65f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e6d2fe29-38cb-4427-9fc6-38db5dbdd0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f37b313d-112e-4a30-90c8-a7cdcde9ea7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\HUD">
+      <UniqueIdentifier>{d66c229c-5281-4c26-b5a4-34d0407c4cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{915eb8ef-d095-4872-af8f-5a734bf4ee95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Common">
+      <UniqueIdentifier>{f338c83e-c250-416a-8516-eb9d27c892bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LevelData">
+      <UniqueIdentifier>{19630729-b855-42a2-b515-b521c8035dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\LevelData\Level0Data">
+      <UniqueIdentifier>{7597413f-c401-4d47-9777-7ebcdca0d10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\DemoData">
+      <UniqueIdentifier>{9b352b34-78d3-43e6-b1f2-93cdfde55d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d7925439-878e-40ef-949b-5f91709d10bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{20746ed7-000b-4e5b-a7a9-0fb955a49e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demo">
+      <UniqueIdentifier>{4a4220f5-f2a8-49a3-a2f5-874c9e465604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e7bdea91-1080-4add-9cf9-dd153e6c27bb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\ddutil.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GCam.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GFont.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\GMap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\graphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\Level0.h">
+      <Filter>Levels\Level0</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Bacterias.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Bouncer.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_CommonBlast.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Cross.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Entities.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Estrellita.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Sphere.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Sphere2.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Turret.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_Wave.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_World.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_ZigZag.h">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Level0\L0_Entities\L0_MapEnt\L0_SmallWall.h">
+      <Filter>Levels\Level0\L0_Entities\L0_MapEnt</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Entities\Blaster.h">
+      <Filter>Levels\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Entities\CommonEntity.h">
+      <Filter>Levels\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Entities\Entity.h">
+      <Filter>Levels\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Entities\Explosion.h">
+      <Filter>Levels\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Levels\Entities\Player.h">
+      <Filter>Levels\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\HUD\HUD.h">
+      <Filter>Game\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FMath.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo\Demo.h">
+      <Filter>Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\stb_image.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stretch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="winjoy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\ddutil.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GCam.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GFont.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\GMap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\graphics_DDraw.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\graphics_OGL.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Ogl\OGL.cpp">
+      <Filter>Graphics\OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Ogl\OGL_TexDB.cpp">
+      <Filter>Graphics\OGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\Level0.cpp">
+      <Filter>Levels\Level0</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Bacterias.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Bouncer.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_CommonBlast.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Cross.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Estrellita.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Sphere.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Sphere2.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Turret.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_Wave.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_World.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_ZigZag.cpp">
+      <Filter>Levels\Level0\L0_Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Level0\L0_Entities\L0_MapEnt\L0_SmallWall.cpp">
+      <Filter>Levels\Level0\L0_Entities\L0_MapEnt</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Entities\Blaster.cpp">
+      <Filter>Levels\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Entities\CommonEntity.cpp">
+      <Filter>Levels\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Entities\Entity.cpp">
+      <Filter>Levels\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Entities\Explosion.cpp">
+      <Filter>Levels\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels\Entities\Player.cpp">
+      <Filter>Levels\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\HUD\HUD.cpp">
+      <Filter>Game\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Ship.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Common\Common.c">
+      <Filter>Data\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect0.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect1.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect10.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect11.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect12.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect13.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect2.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect3.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect4.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Sect9.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Levels\Level0\MAP0_Tiles.c">
+      <Filter>Data\LevelData\Level0Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Demo\demo.c">
+      <Filter>Data\DemoData</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FMath.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo\Demo.cpp">
+      <Filter>Demo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="stretch.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\16x16_sprites.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\32x32_sprites.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="directx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="DONUT.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\MapTiles.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Graphics\Ogl\OGL.h">
+      <Filter>Graphics\OGL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Graphics\Ogl\OGL_TexDB.h">
+      <Filter>Graphics\OGL</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
