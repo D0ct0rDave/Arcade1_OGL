@@ -97,7 +97,7 @@ const DWORD					dwUpdateDelay = SCREENDELTAT/fDeltaMult;
 #define APPSTATE_DEMO				2
 #define APPSTATE_DEMORECORD			3
 
-unsigned int guiAppState = APPSTATE_GAME;
+unsigned int guiAppState = APPSTATE_MENU;
 // -----------------------------------------------------------------------------
 void DrawMenu()
 {
@@ -383,11 +383,11 @@ WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             // Handle any non-accelerated key commands
             switch (wParam)
             {
-                case VK_ESCAPE:
                 case VK_F12:
                     PostMessage(hWnd, WM_CLOSE, 0, 0);
                     return 0L;
 
+                case VK_ESCAPE: oInput.uiPressed |= CMD_START;	break;
 				case VK_UP:		oInput.uiPressed |= CMD_UP;		break;
 				case VK_DOWN:	oInput.uiPressed |= CMD_DOWN;	break;
 				case VK_LEFT:	oInput.uiPressed |= CMD_LEFT;	break;
@@ -409,7 +409,8 @@ WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             // Handle any non-accelerated key commands
             switch (wParam)
             {
-				case VK_UP:		oInput.uiPressed &= ~CMD_UP;	break;
+                case VK_ESCAPE: oInput.uiPressed &= ~CMD_START;	break;
+                case VK_UP:		oInput.uiPressed &= ~CMD_UP;	break;
 				case VK_DOWN:	oInput.uiPressed &= ~CMD_DOWN;	break;
 				case VK_LEFT:	oInput.uiPressed &= ~CMD_LEFT;	break;
 				case VK_RIGHT:	oInput.uiPressed &= ~CMD_RIGHT;	break;
@@ -425,7 +426,6 @@ WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 				case 'n':		oInput.uiPressed &= ~CMD_DBUTT;	break;
 			}
             break;
-
 
         case WM_PALETTECHANGED:
             if ((HWND) wParam == hWnd)

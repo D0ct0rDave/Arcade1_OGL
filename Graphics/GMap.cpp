@@ -711,6 +711,12 @@ BOOL MAP_bCollAtPos(TSpritePos *_poMS,int _iX,int _iY,int _iXEnd,int _iYEnd)
 	int iX				= _iX / TILEXSIZE;
 	int iY				= _iY / TILEYSIZE;
 	int iTileID			= poSec->pucOvData[iY*poSec->usTX + iX];
+	
+	if (iTileID == 0)
+	{
+		return(false);
+	}
+
 	TSpritePos oDstSpr;
 	
 	if (iX < 0) return(false); else if (iX >= gpoMap->poMSecs[giCurSec].usTX) return(false);

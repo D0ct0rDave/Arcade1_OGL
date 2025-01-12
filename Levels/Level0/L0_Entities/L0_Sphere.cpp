@@ -15,6 +15,9 @@
 // -----------------------------------------------------------------------------
 void Level0Ent_SphereThink(TEntity *_poEnt)
 {
+	extern int	giDisableAI;
+	if (giDisableAI) return;
+
 	// Check if the entity goes outside the screen
 	if (
 			(_poEnt->oPos.iX + gpoMap->poTiles[SPRITE_ID].usTX < 0) || 

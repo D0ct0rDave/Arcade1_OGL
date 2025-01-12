@@ -20,6 +20,9 @@ int giSpawnedTurrets = 0;
 // -----------------------------------------------------------------------------
 void Level0Ent_TurretThink(TEntity *_poEnt)
 {
+	extern int	giDisableAI;
+	if (giDisableAI) return;
+
 	// Check if the entity goes outside the screen
 	if (
 			(_poEnt->oPos.iX > SCREENWIDTH) || 

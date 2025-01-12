@@ -300,7 +300,7 @@ void GTextXY(char *str,int x,int y,GAlignment align,Boolean black)
 unsigned int GGetPixel(BMPHandle _SrcHnd,int _iX,int _iY)
 {
 	Texture* pTex = gOGLTexDB.pGetTexture((int)_SrcHnd);
-	unsigned int color = *(unsigned int *)(pTex->data + _iY * (pTex->TX * pTex->channels) + _iX);
+	unsigned int color = *(unsigned int *)(pTex->data + (_iY * pTex->TX + _iX) * pTex->channels);
 	return(color);
 }
 // -----------------------------------------------------------------------------
