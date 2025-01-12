@@ -1,0 +1,13 @@
+Font:
+https://shlomirex.itch.io/pixelated-ascii-font
+
+Free basic pixelated ascii font characters
+Free font, with sizes: 8x8, 16x16, 32x32, 64x64.
+
+Can be used commercially, without any acknowledgment, though it would be nice.
+
+Status	Released
+Category	Assets
+Author	ShlomiRex
+Tags	2D, Fonts, Pixel Art, Royalty Free, Sprites
+
