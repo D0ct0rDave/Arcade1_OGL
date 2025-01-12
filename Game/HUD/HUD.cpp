@@ -90,11 +90,11 @@ void HUD_DrawString (int _iX,int _iY,int _iSprID,char *_szStr)
 // -----------------------------------------------------------------------------
 void HUD_Draw()
 {
- 	// Draw current weapon
-	GPutSprite(HUDBMP[4+giPlWeap],0,0,64,64,288,376,BLENDCOPY);
-
 	// Draw HUD frame
 	GPutSprite(HUDBMP[0],0,0,302,65,(SCREENWIDTH-302)>>1,448-65-8,BLENDALPHA);
+
+	// Draw current weapon
+	GPutSprite(HUDBMP[4 + giPlWeap], 0, 0, 64, 64, 288, 376, BLENDCOPY);
 
 	// Draw energy
 	GPutSprite(HUDBMP[1],0,0,100*((float)gpoPlayerEnt->iEnergy/(float)100),25,178,394,BLENDALPHA);

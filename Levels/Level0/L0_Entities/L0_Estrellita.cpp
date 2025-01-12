@@ -13,6 +13,9 @@
 // -----------------------------------------------------------------------------
 void Level0Ent_EstrellitaThink(TEntity *_poEnt)
 {
+	extern int	giDisableAI;
+	if (giDisableAI) return;
+
 	#define ENEMY0_STEP 5
 
 	switch (_poEnt->iState)

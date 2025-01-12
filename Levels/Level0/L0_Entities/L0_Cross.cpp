@@ -18,6 +18,9 @@ int giSpawnedCrosses = 0;
 // -----------------------------------------------------------------------------
 void Level0Ent_CrossThink(TEntity *_poEnt)
 {
+	extern int	giDisableAI;
+	if (giDisableAI) return;
+
 	// Check if the entity goes outside the screen
 	if (
 			(_poEnt->oPos.iX > SCREENWIDTH) || 
